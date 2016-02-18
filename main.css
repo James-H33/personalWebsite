@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+}
+
+#iBody {
+  background: url('https://images.unsplash.com/photo-1429991889170-afd56b2a1210?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=6f448462352f7b9ef6402f9cc7d56ffd');
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#content {
+  text-align: center;
+  color: #000;
+  background: rgba(25, 25, 25, 0.7);
+}
+
+hr {
+  border-color: #0f0f0f;
+  width: 500px;
+}
+
+/****************************************************************
+NAVBAR
+*****************************************************************/
+.navbar-default {
+
+}
+
+
+.container .jumbotron {
+  margin-top: 100px;
+  background-color: rgba(25, 25, 25, 0.7);
+}
+
+.jumbotron h1, .jumbotron p {
+  color: #E5E5E5;
+}
+
+hr {
+  width: 100%;
+}
+
+/****************************************************************
+PROJECTS
+*****************************************************************/
+
+.thumbnail {
+  margin-top: 70px;
+  border: none;
+  background: none;
+  box-shadow: 5px 5px 5px black;
+}
+
+.caption h3 {
+  color: black;
+}
+
+.caption p {
+  color: gray;
+}
+
+.thumbnail img {
+  height: 220px;
+}
+
+.thumbnail .caption {
+  text-align: center;
+}
+
+.container .contain {
+  width: 75%;
+}
