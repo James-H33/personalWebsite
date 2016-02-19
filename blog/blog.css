@@ -26,7 +26,8 @@ body {
   margin-top: 70px;
   width: 70%;
   max-width: 1000px;
-  border: 10px solid #bdc3c7;
+  background: whitesmoke;
+  border-radius: 4px;
   padding: 20px;
 }
 
@@ -65,13 +66,17 @@ hr.style1 {
 }
 
 #carousel-example-generic {
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 70px;
 }
 
 #carousel-example-generic img {
-  background-image: center;
+  background-size: auto;
+  display: block;
+  max-width: 1200px;
+  max-height: 600px;
+  height: auto;
 }
 
 .carousel-caption {
