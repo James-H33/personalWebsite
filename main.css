@@ -1,6 +1,55 @@
-html {
-  height: 100%;
+body {
+  background-color: #f9f9f9;
 }
+
+/****************************************************************
+NAVBAR
+*****************************************************************/
+
+.navbar-inverse .navbar-brand {
+  color: #e74c3c;
+}
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/****************************************************************
+Header Content
+*****************************************************************/
+
+hr {
+  border-color: #9d9d9d;
+  width: 40%;
+}
+
+.main-header {
+ /*Removed when navbar is transparent*/
+  /*margin-top: 50px;*/
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  min-height: 300px;
+  display: block;
+  background-color: rgba(25, 25, 25, 0.7);
+}
+.main-header h1 {
+  margin-bottom: 10px;
+}
+
+.main-header-items {
+  font-size: 4vw;
+  font-family: initial;
+  color: #9d9d9d;
+  width: 100%;
+  padding: 20px;
+  padding-top: 25%;
+  margin: 0 auto;
+}
+
 
 #iBody {
   background: url('https://images.unsplash.com/photo-1429991889170-afd56b2a1210?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=6f448462352f7b9ef6402f9cc7d56ffd');
@@ -11,65 +60,79 @@ html {
   background-attachment: fixed;
 }
 
-#content {
-  text-align: center;
-  color: #000;
-  background: rgba(25, 25, 25, 0.7);
-}
-
-hr {
-  border-color: #0f0f0f;
-  width: 500px;
-}
 
 /****************************************************************
-NAVBAR
+Center Content
 *****************************************************************/
-.navbar-default {
+
+.middle-content {
+margin-left: 1em;
+margin-right: 1em;
+}
+
+.col {
 
 }
 
-
-.container .jumbotron {
-  margin-top: 100px;
-  background-color: rgba(25, 25, 25, 0.7);
+.first-content {
+  display: block;
+  width: 100%;
 }
 
-.jumbotron h1, .jumbotron p {
-  color: #E5E5E5;
-}
-
-hr {
+.second-content {
+  display: block;
   width: 100%;
 }
 
 /****************************************************************
-PROJECTS
+Footer
 *****************************************************************/
-
-.thumbnail {
-  margin-top: 70px;
-  border: none;
-  background: none;
-  box-shadow: 5px 5px 5px black;
+.clear {
+  clear: both;
 }
-
-.caption h3 {
-  color: black;
-}
-
-.caption p {
-  color: gray;
-}
-
-.thumbnail img {
-  height: 220px;
-}
-
-.thumbnail .caption {
+.footer {
+  color: #9d9d9d;
+  height: 80px;
+  width: 100%;
+  background: rgba(30, 30, 30, 1);
+  padding: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 
-.container .contain {
-  width: 75%;
+/****************************************************************
+Media Queries
+*****************************************************************/
+
+@media (min-width: 769px) {
+
+  .middle-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .first-content {
+    float: left;
+  }
+
+  .second-content {
+    float: left;
+  }
+
+  .col {
+    width: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .footer {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .main-header-items {
+padding-top: 10%;
+  }
+
+
 }

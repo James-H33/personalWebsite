@@ -16,25 +16,14 @@ body {
   background: rgba(30, 30, 30, 1);
 }
 
-.navbar-inverse {
-    background-color: rgba(30, 30, 30, 1);
-    border-color: rgba(30, 30, 30, 1);
-}
-
-.blog {
-  margin: auto;
-  margin-top: 70px;
-  width: 70%;
-  max-width: 1000px;
-  background: whitesmoke;
-  border-radius: 4px;
-  padding: 20px;
-}
-
 h1 {
   width: 60%;
   margin-left: 2%;
   color: rgba(50, 80, 120, 1);
+}
+
+h3 {
+  font-size: 15px;
 }
 
 
@@ -48,6 +37,27 @@ p {
   color: #9d9d9d;
 }
 
+hr.style1 {
+  width: 92%;
+  margin: auto;
+	border-top: 3px double #8c8b8b;
+}
+
+.navbar-inverse {
+    background-color: rgba(30, 30, 30, 1);
+    border-color: rgba(30, 30, 30, 1);
+}
+
+.blog {
+  margin: auto;
+  margin-top: 70px;
+  max-width: 1000px;
+  background: whitesmoke;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+
 .p_left-border {
   padding-left: 1%;
   border-left: 5px solid #bdc3c7;
@@ -59,26 +69,35 @@ p {
   text-transform: uppercase;
 }
 
-hr.style1 {
-  width: 92%;
-  margin: auto;
-	border-top: 3px double #8c8b8b;
+.navbar-inverse .navbar-brand {
+  color: #e74c3c
+}
+
+.carousel-caption {
+  color: lightgray;
 }
 
 #carousel-example-generic {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 0;
   margin-top: 70px;
 }
 
 #carousel-example-generic img {
   background-size: auto;
   display: block;
-  max-width: 1200px;
-  max-height: 600px;
-  height: auto;
 }
 
-.carousel-caption {
-  color: lightgray;
+
+@media (min-width: 769px) {
+
+  .container {
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+
 }

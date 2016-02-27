@@ -6,7 +6,16 @@ hr.style-two { border: 0; height: 1px; background-image: linear-gradient(to righ
   margin: 70px auto;
   max-width: 350px;
   max-height: 450px;
+  margin-top: 70px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(25, 25, 25, 0.8);
 }
+
+.navbar-inverse {
+  background-color:  rgba(30, 30, 30, 1);
+  border-color:  rgba(30, 30, 30, 1);
+}
+
 
 img {
   border-radius: 4px;
@@ -14,11 +23,27 @@ img {
 }
 
 .row {
-  background: #607D8B;
+  background: rgba(30, 30, 30, 1);
+  margin-top: 50px;
 }
 
 .col-sm-12 .col-sm-6 .col-md-4 {
 
+}
+.caption h3 {
+  color: black;
+}
+
+.caption p {
+  color: gray;
+}
+
+.thumbnail img {
+  height: 220px;
+}
+
+.thumbnail .caption {
+  text-align: center;
 }
 
 .btn-primary {
@@ -32,6 +57,10 @@ img {
     color: #fff;
     background-color: rgba(25, 25, 25, 0.7);
     border-color: gray;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #e74c3c
 }
 
 #overlay {
