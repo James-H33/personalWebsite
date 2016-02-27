@@ -15,6 +15,10 @@ NAVBAR
   border-color: rgba(0, 0, 0, 0);
 }
 
+.backgroundColor {
+  background-color: rgba(30, 30, 30, 1);
+}
+
 
 
 /****************************************************************
